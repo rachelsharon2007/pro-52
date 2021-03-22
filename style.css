@@ -1,0 +1,55 @@
+.header{
+    display:flex;
+    justify-content:center;
+    background-color:#0a0c0c;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    
+}   
+
+.grid img{
+     
+    border:2px solid #000000;
+    border-radius: 20px;
+  
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color:#ffffff;
+    padding:30px;
+    margin:25px;
+    width:310px;
+    font-family:noteworthy;
+}
+.menu{
+    margin-right:30px;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin:0p;
+    background-color:#184d45;
+}
+
+a:link{
+    color:#ffffff;
+}
+a:visited{
+    color:#ffffff
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
